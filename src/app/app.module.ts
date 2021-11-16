@@ -8,6 +8,7 @@ import { HelloComponent } from './hello.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { TempComponent } from './templist.component';
 
+
 @NgModule({
     imports: [
     BrowserModule,

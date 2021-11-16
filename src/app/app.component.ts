@@ -1,6 +1,8 @@
 import { Component, VERSION } from '@angular/core';
 import { temperatures } from './Temperatures';
 
+
+
 @Component({
   selector: 'my-app',
   templateUrl: './app.component.html',
@@ -10,3 +12,5 @@ export class AppComponent  {
   name = 'Angular ' + VERSION.major;
   temperatures = temperatures;
 }
+
+
